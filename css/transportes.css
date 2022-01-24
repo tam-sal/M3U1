@@ -11,7 +11,7 @@ header {
   position: fixed;
   z-index: 0;
   width: 100%; */
-  background: rgb(21, 85, 236);
+  background: rgba(8, 37, 104, 0.842);
   /* margin-top: 0px; */
   padding: 1em 0;
 }
