@@ -154,7 +154,7 @@ h2 {
 
 .img-persona {
   border-radius: 50%;
-  border: 2.8px solid rgb(20, 23, 204);
+
   filter: grayscale(30%);
   filter: blur(0.5px);
 }
@@ -206,6 +206,7 @@ h2 {
   filter: grayscale(0%);
   filter: brightness(1.1);
   filter: contrast(150%);
+  border: 2.8px solid rgb(20, 23, 204);
 }
 .redes1 > a {
   text-decoration: none;
