@@ -1,0 +1,215 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+}
+
+header {
+  /* display: block;
+  position: fixed;
+  z-index: 0;
+  width: 100%; */
+  background: rgb(21, 85, 236);
+  /* margin-top: 0px; */
+  padding: 1em 0;
+}
+
+header h1 {
+  color: white;
+  font-size: 2.5em;
+  font-style: italic;
+  font-weight: 100;
+  display: inline-block;
+  position: relative;
+  bottom: 0.7em;
+}
+
+nav {
+  background: rgb(108, 198, 231);
+  margin-bottom: 2em;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  width: 16.3%;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 0.2em 0.4em;
+}
+
+.nav-item a:hover {
+  background-color: rgba(0, 0, 0, 0.301);
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  background: #ccc;
+  clear: both;
+  color: #333;
+  padding: 3em 0;
+  margin: 2em 0;
+  text-align: center;
+}
+
+.activo {
+  background: #4c76a5;
+}
+
+h2 {
+  color: navy;
+  font-weight: 400;
+  margin: 0 0 1em;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+/* Inicio Home */
+.homeimg {
+  margin-bottom: 1.5em;
+  /* border-radius: 1em; */
+}
+.homeimg img {
+  border-radius: 1em;
+}
+
+.bienvenidos,
+.testimonios {
+  box-sizing: border-box;
+}
+
+.bienvenidos {
+  width: 75%;
+  padding-right: 2em;
+  text-align: justify;
+}
+.testimonios {
+  width: 25%;
+  padding-left: 2em;
+}
+.testimonio {
+  background: rgb(185, 184, 184);
+  padding: 0.6em;
+}
+.cita {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.4em;
+  display: block;
+}
+.autor {
+  font-size: 0.9em;
+  text-align: center;
+  margin: 1em 0;
+  display: block;
+}
+/* Fin Home */
+
+/* Inicio Nosotros */
+.personas {
+  width: 99%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.persona {
+  padding: 0.5em;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  margin: 0 0.2em;
+  border-radius: 0.5em;
+  background: linear-gradient(
+    to bottom,
+    rgba(158, 157, 157, 0.5),
+    rgb(255, 255, 255)
+  );
+  box-shadow: -0.5em -0.5em 2em rgba(34, 34, 185, 0.582) inset;
+}
+
+.img-persona {
+  border-radius: 50%;
+  border: 1px dotted rgb(26, 211, 224);
+}
+.img-persona:hover {
+  filter: grayscale(80%);
+}
+
+.persona .nom-persona,
+.persona .puesto,
+.persona .descripcion {
+  justify-content: center;
+  text-align: center;
+  display: block;
+}
+.descripcion {
+  text-align: justify;
+}
+.puesto {
+  font-style: italic;
+}
+.puesto,
+.nom-persona {
+  color: rgb(37, 143, 230);
+}
+.persona .redes-sociales {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.fab {
+  display: flex;
+  font-size: 1.1em;
+  width: 2em;
+  height: 2em;
+  padding: 0em;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to top,
+    rgba(248, 246, 246, 0.493),
+    rgba(0, 0, 0, 0.335)
+  );
+  border-radius: 0.3em;
+  text-decoration: none;
+}
+.redes1 > a {
+  text-decoration: none;
+}
+.redes2 > a {
+  text-decoration: none;
+}
+.redes3 > a {
+  text-decoration: none;
+}
+.fa-facebook-f,
+.fa-linkedin {
+  color: rgb(36, 36, 224);
+}
+.fa-twitter {
+  color: rgb(24, 182, 230);
+}
+
+/* Fin Nosotros */
