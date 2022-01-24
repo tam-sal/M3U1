@@ -195,6 +195,11 @@ h2 {
   border-radius: 0.3em;
   text-decoration: none;
 }
+
+.persona:hover {
+  filter: drop-shadow(0px 10px 10px rgba(7, 90, 167, 0.424)) invert(10%);
+}
+
 .redes1 > a {
   text-decoration: none;
 }
@@ -210,6 +215,10 @@ h2 {
 }
 .fa-twitter {
   color: rgb(24, 182, 230);
+}
+
+.fab:hover {
+  filter: contrast(300%);
 }
 
 /* Fin Nosotros */
