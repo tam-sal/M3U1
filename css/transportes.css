@@ -11,13 +11,10 @@ body {
 }
 
 header {
-  /* display: block;
-  position: fixed;
-  z-index: 0;
-  width: 100%; */
   background: rgba(8, 37, 104, 0.842);
-  /* margin-top: 0px; */
   padding: 1em 0;
+  position: sticky;
+  top: 0;
 }
 
 header h1 {
@@ -33,6 +30,8 @@ header h1 {
 nav {
   background: rgb(108, 198, 231);
   margin-bottom: 2em;
+  position: sticky;
+  top: 13.6%;
 }
 
 .nav-list {
@@ -68,7 +67,7 @@ footer {
   clear: both;
   color: #333;
   padding: 3em 0;
-  margin: 2em 0;
+  margin: 4em 0 0 0;
   text-align: center;
 }
 
@@ -154,9 +153,8 @@ h2 {
 
 .img-persona {
   border-radius: 50%;
-
-  filter: grayscale(30%);
   filter: blur(0.5px);
+  filter: grayscale(60%);
 }
 
 .persona .nom-persona,
@@ -231,3 +229,37 @@ h2 {
 }
 
 /* Fin Nosotros */
+
+/* Inicio Servicios */
+.caja {
+  border: 0.125em solid gray;
+  border-radius: 0.7em;
+  margin: 1em 0;
+  padding: 1em;
+  overflow: hidden;
+  display: flex;
+}
+
+.info {
+  margin: 0 0.5em;
+}
+
+.caja:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.h4-caja {
+  color: #2e64a1;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 900;
+  margin: 0 0 1em 0;
+  border-bottom: 1px solid #2e64a1;
+  padding-bottom: 0.5em;
+}
+
+.img-caja img {
+  border-radius: 0.5em;
+}
+
+/* Fin Servicios */
