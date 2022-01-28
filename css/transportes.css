@@ -97,6 +97,8 @@ h2 {
 .left {
   float: left;
 }
+
+
 .right {
   float: right;
 }
@@ -122,10 +124,12 @@ h2 {
 .testimonios {
   width: 25%;
   padding-left: 2em;
+  
 }
 .testimonio {
   background: rgb(185, 184, 184);
   padding: 0.6em;
+  border-radius: 0.5em;
 }
 .cita {
   font-weight: bold;
