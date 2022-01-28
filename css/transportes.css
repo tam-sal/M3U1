@@ -236,14 +236,14 @@ h2 {
 }
 .fa-facebook-f,
 .fa-linkedin {
-  color: rgb(36, 36, 224);
+  color: rgb(45, 45, 206);
 }
 .fa-twitter {
   color: rgb(24, 182, 230);
 }
 
 .fab:hover {
-  filter: contrast(300%);
+  filter: contrast(350%);
   box-shadow: -5px 5px 3px rgba(0, 0, 0, 0.397);
 }
 
